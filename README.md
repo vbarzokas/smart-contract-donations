@@ -29,20 +29,26 @@ A part of the funds will be sent to the charity the user specified, while the re
     truffle migrate
     ```
 
-## Testing:
-0. Open a new _truffle_ CLI with:
+## Running:
+* Execute the provided tests:
     ```
-    truffle console
+    truffle test
     ```
-0. Retrieve your version of the binary and ABI snippets from the produced build on `build/contracts/Charitable.json`. These have been truncated in the following example for readability purposes:
- 
-    ```
-    > web3.eth.getAccounts().then(a => myAccount=a[0]);
-    > contractBin = '0x60806040523480<...TRUNCATED...>10b75dcbdaf0029';
-    > contractAbi = [{"constant":false,<...TRUNCATED...>,"type":"fallback"}]
-    > FaucetContract = new web3.eth.Contract(contractAbi);
-    > web3.eth.estimateGas({data: contractBin});
-    118191
-    > web3.eth.getGasPrice();
-    ‘20000000000’
-    ```
+  
+* Manually test and experiment:
+    0. Open a new _truffle_ CLI with:
+        ```
+        truffle console
+        ```
+    0. Retrieve your version of the binary and ABI snippets from the produced build on `build/contracts/Charitable.json`. These have been truncated in the following example for readability purposes:
+     
+        ```
+        > web3.eth.getAccounts().then(a => myAccount=a[0]);
+        > contractBin = '0x60806040523480<...TRUNCATED...>10b75dcbdaf0029';
+        > contractAbi = [{"constant":false,<...TRUNCATED...>,"type":"fallback"}]
+        > FaucetContract = new web3.eth.Contract(contractAbi);
+        > web3.eth.estimateGas({data: contractBin});
+        118191
+        > web3.eth.getGasPrice();
+        ‘20000000000’
+        ```
