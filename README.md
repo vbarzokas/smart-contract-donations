@@ -41,6 +41,8 @@ When a donation has been made through the contract, an event transmitting the ad
     ```
 
 ## Running:
+Running and testing of the contract can be achieved by either:
+
 * Execute the provided tests:
     ```
     truffle test
