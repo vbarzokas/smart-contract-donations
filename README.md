@@ -35,7 +35,7 @@ When a donation has been made through the contract, an event transmitting the ad
     ```
     truffle compile
     ```
-1. Step 2 - Run the required migrations:
+1. Run the required migrations:
     ```
     truffle migrate
     ```
