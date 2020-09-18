@@ -6,7 +6,7 @@ contract('Charitable', (accounts) => {
 	describe('deposit:', () => {
 		// TODO add a test for the version of the function that does not expect a donation amount.
 		it('Should properly deposit the donation and transfer amount '
-				+ 'when the sender is specified.', async () => {
+				+ 'when the sender is specified, for a single transfer', async () => {
 			const instance = await Charitable.deployed();
 
 			// const addresses = await instance.getAddresses.call();
@@ -58,7 +58,7 @@ contract('Charitable', (accounts) => {
 		});
 
 		it('Should properly deposit the donation and transfer amount '
-				+ 'when the sender is not specified.', async () => {
+				+ 'when the sender is specified, for multiple transfers.', async () => {
 			const instance = await Charitable.deployed();
 
 			const balances ={
