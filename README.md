@@ -47,11 +47,12 @@ When a donation has been made through the contract, an event transmitting the ad
     ```
   
 * Manually test and experiment:
+
     0. Open a new _truffle_ CLI with:
         ```
         truffle console
         ```
-    0. Retrieve your version of the binary and ABI snippets from the produced build on `build/contracts/Charitable.json`. These have been truncated in the following example for readability purposes:
+    1. Retrieve your version of the binary and ABI snippets from the produced build on `build/contracts/Charitable.json`. These have been truncated in the following example for readability purposes:
      
         ```
         > web3.eth.getAccounts().then(a => myAccount=a[0]);
