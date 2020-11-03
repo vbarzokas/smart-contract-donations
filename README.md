@@ -2,7 +2,7 @@
 A smart contract written in **Solidity**, that uses the **Ethereum** blockchain.
  
 ## Description
-This is part of an exercise developed for the needs of the course _Decentralized Technologies_ during the MSc program of _[Data & Web Science](https://dws.csd.auth.gr/en/)_ at Aristotle University of Thessaloniki.
+This is part of an exercise developed for the needs of the course _Decentralized Technologies_ during the MSc program of _[Data & Web Science](https://dws.csd.auth.gr/)_ at Aristotle University of Thessaloniki.
 
 The smart contract's purpose is to facilitate donations to different charities. When a user wants to send some funds to a destination address, instead of sending them directly to that address, they will use the smart contract. 
 
